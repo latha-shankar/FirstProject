@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+body
+{
+  
+    width: 100%;
+    height: 100vh; 
+    background-image: linear-gradient(white,lightpink,white,lightblue,white);
+
+}
+.right{
+    display: flex;
+    position: static;
+}
+.left{
+    display: flex;
+    float: right;
+}
+.right img{
+    margin-top: 77px;
+    margin-left: 50px;
+    margin-right: 40px;
+
+}
+.right i{
+    
+    margin-top: 96px;
+    position: absolute;
+    margin-left: 145px;
+}
+.right input{
+    margin-top: 95px;
+    padding-left: 25px;
+    padding-right: 50px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px grey;
+}
+
+.left i{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.left img{
+    margin-right: 10px;
+
+}
+
+.left h4{
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 28px;
+}
+
+.para pre{
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 80px;
+        font-family: montserrat;
+}
+
+.ex1{
+    display: flex;
+    float: right;
+}
+
+.ex1 img{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.ex1 pre{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+h5{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: purple;
+}
+
+#btn1{
+margin-left: 50px;
+margin-top: 80px;
+padding: 5px 20px;
+color: white;
+background-color: purple;
+border: none;
+cursor: pointer;
+
+}
+
+#btn1:hover{
+    color: black;
+    padding: 5px 30px;
+    border-radius: 15px;
+    box-shadow: 4px 5px 5px grey;
+}
+
+.dis{
+   margin-left: 1360px;
+   color: blue;
+}
+
+.dis span{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.fa-facebook
+{
+color: white;
+font-size: 24px;
+background: blue;
+padding-left: 20px;
+padding-bottom: 5px;
+padding-right: 300px;
+}
+
+.fa-twitter
+{
+color: white;
+font-size: 24px;
+background: skyblue;
+padding-left: 20px;
+padding-bottom: 5px;
+padding-right: 292px;
+}
+
+.fa-pinterest
+{
+color: white;
+font-size: 24px;
+background: red;
+padding-left: 20px;
+padding-bottom: 6px;
+padding-right: 294px;
+}
+
+.fa-linkedin
+{
+color: white;
+font-size: 24px;
+background: #30a1d0;
+padding-left: 20px;
+padding-bottom: 6px;
+padding-right: 294px;
+}
+
+.fa-whatsapp
+{
+color: white;
+font-size: 24px;
+background: #29af29;
+padding-left: 20px;
+padding-bottom: 5px;
+padding-right: 294px;
+}
+
+.offcanvas-body{
+    background-color: black;
+    position: static;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.fa-facebook:hover{
+    opacity: .7;
+    box-shadow: 4px 3px 3px white;
+}
+
+.fa-twitter:hover{
+    opacity: .7;
+    box-shadow: 4px 3px 3px white;
+
+}
+
+.fa-linkedin:hover{
+    opacity: .7;
+    box-shadow: 4px 3px 3px white;
+}
+
+.fa-pinterest:hover{
+    opacity: .7;
+    box-shadow: 4px 3px 3px white;
+}
+
+.fa-whatsapp:hover{
+    opacity: .7;
+    box-shadow: 4px 3px 3px white;
+}
+
+.btn2:hover{
+    border: none;
+    box-shadow: 2px 2px 2px white;
+}
+.offcanvas{
+    position: relative;
+}
+
